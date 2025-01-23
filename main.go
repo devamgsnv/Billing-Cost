@@ -15,8 +15,6 @@ func billingCost(plan string) float64 {
 	}
 }
 
-// don't touch below this line
-
 func main() {
 	plan := "basic"
 	fmt.Printf("The cost for a %s plan is $%.2f\n", plan, billingCost(plan))
